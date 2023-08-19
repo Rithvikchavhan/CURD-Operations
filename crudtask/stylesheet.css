@@ -1,0 +1,41 @@
+.pagination {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.pagination li {
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing as needed */
+}
+.pagination a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    color: #000000;
+}
+
+.pagination li.active a {
+    background-color: #2a0ced;
+    color: #fff;
+}
+.add-user-button {
+    margin-right: 75px;
+}
+.search-user-button {
+    margin-right: 10px;
+    border-radius: 4px !important;
+    margin-left: 5px;
+}
+.pagination-center {
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #007bff;
+    color: white;
+}
+.btn-red {
+    background-color: #dc3545;
+    color: white;
+}
